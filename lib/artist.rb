@@ -21,9 +21,9 @@ class Artist
 #        @@all.detect{|a| a.name == name}
 #      end
 
-  def self.all
-    @@all
-  end
+#      def self.all
+#        @@all
+#      end
 
 #      def self.reset_all
 #        self.all.clear
