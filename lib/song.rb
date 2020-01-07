@@ -10,7 +10,7 @@ class Song
   attr_accessor :name, :artist
 #      attr_reader :artist
 
-  @@all = []
+#      @@all = []
 
 #      def initialize
 #        @@all << self
