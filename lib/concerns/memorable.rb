@@ -1,7 +1,7 @@
 module Memorable
   module ClassMethods
     
-    def self.all
+    def all
       @@all
     end
     
