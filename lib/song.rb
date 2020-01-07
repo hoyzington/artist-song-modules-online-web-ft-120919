@@ -6,8 +6,8 @@ class Song
   extend Findable
   include Paramable
   
-  attr_accessor :name
-  attr_reader :artist
+  attr_accessor :name, :artist
+#      attr_reader :artist
 
   @@all = []
 
@@ -19,9 +19,9 @@ class Song
 #        @@all.detect{|a| a.name == name}
 #      end
 
-  def self.all
-    @@all
-  end
+#      def self.all
+#        @@all
+#      end
 
 #      def self.reset_all
 #        self.all.clear
@@ -31,9 +31,9 @@ class Song
 #        self.all.count
 #      end
 
-  def artist=(artist)
-    @artist = artist
-  end
+#      def artist=(artist)
+#        @artist = artist
+#      end
 
 #      def to_param
 #        name.downcase.gsub(' ', '-')
