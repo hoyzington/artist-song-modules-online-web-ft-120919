@@ -19,6 +19,8 @@ module Memorable
   
   module InstanceMethods
     
+    @@all = []
+    
     def initialize
       @@all << self
     end
